@@ -1,13 +1,12 @@
-import { NavicationBar } from "../components/Navication";
+import NavicationBar from "../components/Navication";
 
-export default function ServicePage () {
-    return (
-      <>
-        <NavicationBar>
-        </NavicationBar>
-        <center>
-            <h1>บริการ</h1>
-        </center>
-      </>
-    );
+export default function ServicePage() {
+  return (
+    <>
+      <NavicationBar />
+      <center>
+        <h1>บริการ</h1>
+      </center>
+    </>
+  );
 }
