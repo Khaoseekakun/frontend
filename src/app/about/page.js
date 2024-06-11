@@ -1,13 +1,13 @@
-import HeadersLink from "../../components/Link"
+import { NavicationBar } from "../components/Navication";
 
 export default function AboutPage() {
     return (
         <>
-            <center>
-                <h1>เกี่ยวกับเรา</h1>
-            </center>
-            <br></br>
-            <HeadersLink></HeadersLink>
+        <NavicationBar>
+        </NavicationBar>
+        <center>
+            <h1>เกี่ยวกับ</h1>
+        </center>
         </>
     );
 }

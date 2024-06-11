@@ -1,12 +1,12 @@
-import HeadersLink from "../components/Link"
+import { NavicationBar } from "./components/Navication";
 export default function Home() {
   return (
     <>
-      <center>
-        <h1>ยินดีต้อนรับเข้าสู่เว็บไซต์ขายสินค้าออนไลน์</h1>
-      </center>
-      <br></br>
-      <HeadersLink></HeadersLink>
+        <NavicationBar>
+        </NavicationBar>
+        <center>
+            <h1>หน้าแรก</h1>
+        </center>
     </>
   );
 }

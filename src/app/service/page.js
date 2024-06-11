@@ -1,13 +1,13 @@
-import HeadersLink from "../../components/Link"
+import { NavicationBar } from "../components/Navication";
 
 export default function ServicePage () {
     return (
       <>
+        <NavicationBar>
+        </NavicationBar>
         <center>
-          <h1>บริการของเรา</h1>
+            <h1>บริการ</h1>
         </center>
-        <br></br>
-        <HeadersLink></HeadersLink>
       </>
     );
 }
