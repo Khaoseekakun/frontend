@@ -4,7 +4,7 @@ export default function Home() {
     <>
       <NavicationBar />
       <center>
-        <h1>หน้าแรก</h1>
+        <h1>ยินดีต้อนรับเข้าสู่เว็บไซต์ขายสินค้าออนไลน์</h1>
       </center>
     </>
   );
