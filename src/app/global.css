@@ -1,0 +1,13 @@
+.navbar .form-inline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.container-fluid {
+    max-width: 100%;
+}
